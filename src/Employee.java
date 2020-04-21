@@ -15,9 +15,12 @@ public class Employee {
         this.age = age;
     }
 
-    public void info(){
-        System.out.printf("Сотрудник1\nФИО: " + fullName + "\nРаботает в должности: " + position + "\nАдрес эл. почты: " + email +
-                "\nНомер телефона: " + phoneNumber + "\nЗарплата: " + salary + "\nВозраст: " + age + "\n");
+    public void info() {
+        System.out.printf("Сотрудник\nФИО: " + fullName + "\nРаботает в должности: " + position + "\nАдрес эл. почты: " + email +
+                "\nНомер телефона: " + phoneNumber + "\nЗарплата: " + salary + "\nВозраст: " + age + "\n\n");
     }
 
+    public int getAge() {
+        return age;
+    }
 }
